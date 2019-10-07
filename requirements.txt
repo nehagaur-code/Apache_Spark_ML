@@ -1,0 +1,27 @@
+#spark installation
+
+
+java -version
+
+sudo apt-get update
+
+sudo apt-get install default-jdk
+
+Install Scala
+
+sudo apt-get install scala
+
+download spark 
+unzip by following
+sudo tar xvf spark-2.3.1-bin-hadoop2.7.tgz -C /usr/local/spark
+
+nano ~/.bashrc
+
+SPARK_HOME=/usr/local/spark
+
+export PATH=$SPARK_HOME/bin:$PATH
+
+source ~/.bashrc
+
+./spark-shell
+

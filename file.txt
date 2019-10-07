@@ -1,0 +1,2 @@
+Healthcare providers are using Apache Spark to analyze patient records along with past clinical data to identify which patients are likely to face health issues after being discharged from the clinic. Apache Spark is used in genomic sequencing to
+ reduce the time needed to process genome data.
